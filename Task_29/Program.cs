@@ -20,7 +20,3 @@ for (int i = 0; i < 8; i++)
     Console.WriteLine(sums_array[i]);
 }
 Console.WriteLine();
-/* temp=nums_array[2].ToString();
-Console.WriteLine(temp.Length);
-
-Console.WriteLine((int)Char.GetNumericValue(temp[0])+(int)Char.GetNumericValue(temp[1])); */
