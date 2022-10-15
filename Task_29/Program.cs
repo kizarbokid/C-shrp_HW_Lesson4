@@ -15,7 +15,7 @@ for (int i = 0; i < 8; i++)
     temp = nums_array[i].ToString(); /* временная перем для преобр числа в строку */
     sum = 0; /* занулить сумму цифр числа */
     for (int j = 0; j < temp.Length; j++)
-        {sum = sum + (int)Char.GetNumericValue(temp[j]);}
+        {sum = sum + (int)Char.GetNumericValue(temp[j]);}//достать числовое значение из j-ого символа строки i и нарастить сумму цифр 
     sums_array[i]=sum;
     Console.WriteLine(sums_array[i]);
 }
