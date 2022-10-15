@@ -17,7 +17,6 @@ string input_text = "число";
 string input_result = to_input_var(input_text);
 
 for (int i = 0; i < input_result.Length; i++)
-    {sum=sum+(int)Char.GetNumericValue(input_result[i]);}
+{ sum = sum + (int)Char.GetNumericValue(input_result[i]); } // А почему здесь не сработает Int32.Parse(input_result[i]) ??;
 
 print(sum);
-    
